@@ -9,11 +9,14 @@
     "start": "brunch watch --server",
     "build": "brunch build --production"
   },
-  "dependencies": {},
+  "dependencies": {
+    "normalize-scss": "^7.0.0"
+  },
   "devDependencies": {
     "auto-reload-brunch": "^2",
     "brunch": "^2",
     "clean-css-brunch": "^2",
+    "sass-brunch": "^2.10.4",
     "uglify-js-brunch": "^2"
   }
 }

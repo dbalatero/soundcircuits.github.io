@@ -1,0 +1,8 @@
+html {
+  font-size: 16px;
+  font-family: Courier;
+}
+
+body {
+  @include background-2x('/images/bg', 'png', auto, auto, left top, repeat);
+}
