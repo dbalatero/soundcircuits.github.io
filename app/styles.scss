@@ -5,5 +5,7 @@ $base-unit: 'rem';
 
 @import "utilities/background-2x";
 @import "settings/base";
-@import "components/outer-container";
+
 @import "components/content-container";
+@import "components/outer-container";
+@import "components/quantity";
