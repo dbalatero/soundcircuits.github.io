@@ -1,10 +1,11 @@
 $base-font: Courier, monospace;
 
 html {
-  font-size: 16px;
+  font-size: 18px;
   font-family: $base-font;
 }
 
 body {
   @include background-2x('/images/bg', 'png', auto, auto, left top, repeat);
+  padding-bottom: 6rem;
 }
